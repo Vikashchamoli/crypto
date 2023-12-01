@@ -18,6 +18,7 @@
           <button class="btn mb-2 mx-1 " data-filter="Bitcoin">Bitcoin</button>
           <button class="btn mb-2 mx-1" data-filter="Etherium">Etherium</button>
           <button class="btn mb-2 mx-1" data-filter="Dogecoin">Dogecoin</button>
+          <button class="btn mb-2 mx-1" data-filter="Litecoin">Litecoin</button>
         </div>
       </div>
 
@@ -28,40 +29,55 @@
       <div class="row px-2 mt-4 gap-3" id="filterable-cards">
         <div class="card p-0" data-name="Bitcoin">
           <div class="card-body">
-            <h6 class="card-title">Bitcoin </h6>
+            <h6 class="card-title">USDT( TRC20 ) &nbsp; <img src="./tronlogo.png" class="logo">&nbsp; or  Tron &nbsp; <img src="./tronlogo.png" class="logo">
+            </h6>
             </div>
           <img src="./bitcoin (2).png" alt="img" class="imgcryp">
           <input type="text" id="text-1" value="XXXXX-XXXXX-XXXXX-XXXXX-XXXXX" readonly class="inp1"/>
-      <button onclick="copy('text-1')" class="inp">Copy <ion-icon name="documents-outline"></ion-icon></button>
+      <button onclick="copy('text-1')" id="copy1" class="inp">Copy</button>
       
         </div>
        
         
         <div class="card p-0" data-name="Etherium">
           <div class="card-body">
-            <h6 class="card-title">Etherium</h6>
+            <h6 class="card-title">Bitcoins &nbsp; <img src="./bitcoinlogo.png" class="logo">
+             </h6>
             </div>
 
           <img src="./etherium2.png" alt="img" class="imgcryp">
           <input type="text" id="text-2" value="XXXXX-XXXXX-XXXXX-XXXXX-XXXXX" readonly class="inp1"/>
-          <button onclick="copy('text-2')" class="inp">Copy <ion-icon name="documents-outline"></ion-icon></button>
+          <button onclick="copy('text-2')" id="copy2" class="inp">Copy </button>
           
         </div>
         
         
         <div class="card p-0" data-name="Dogecoin">
           <div class="card-body">
-            <h6 class="card-title">Dogecoin</h6>
+            <h6 class="card-title">USDT ( ERC20 ) &nbsp; <img src="./eteriumlogo.png" class="logo"> &nbsp;  or Etherium  <img src="./eteriumlogo.png" class="logo"></h6>
             </div>
           <img src="./dogecoin.png" alt="img" class="imgcryp">
           <input  type="text" id="text-3" value="XXXXX-XXXXX-XXXXX-XXXXX-XXXXX"  readonly class="inp1"/>
-      <button onclick="copy('text-3')"  class="inp" >Copy <ion-icon name="documents-outline"></ion-icon> </button>
+      <button onclick="copy('text-3')" id="copy3"  class="inp" >Copy </button>
         </div>
         
+
+        <div class="card p-0" data-name="Litecoin">
+          <div class="card-body">
+            <h6 class="card-title">Lite Coin &nbsp; <img src="./litecoinlogo.webp" class="logo"></h6>
+            </div>
+          <img src="./dogecoin.png" alt="img" class="imgcryp">
+          <input  type="text" id="text-4" value="XXXXX-XXXXX-XXXXX-XXXXX-XXXXX"  readonly class="inp1"/>
+      <button onclick="copy('text-4')" id="copy4"  class="inp" >Copy </button>
+        </div>
+
       </div>
+
+
+
+
       
     </div>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+   
   </body>
 </html>
