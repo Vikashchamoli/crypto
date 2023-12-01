@@ -31,7 +31,7 @@ let copy = (textId) => {
 
   const btn = document.getElementById('copy1');
 
-// ✅ Change button text on click
+//  Change button text on click
 btn.addEventListener('click', function handleClick() {
   btn.textContent = 'Copied';
   btn2.textContent = 'Copy';
@@ -41,7 +41,7 @@ btn.addEventListener('click', function handleClick() {
 
 const btn2 = document.getElementById('copy2');
 
-// ✅ Change button text on click
+//  Change button text on click
 btn2.addEventListener('click', function handleClick() {
   btn2.textContent = 'Copied';
   btn.textContent = 'Copy';
@@ -51,7 +51,7 @@ btn2.addEventListener('click', function handleClick() {
 
 const btn3 = document.getElementById('copy3');
 
-// ✅ Change button text on click
+//  Change button text on click
 btn3.addEventListener('click', function handleClick() {
   btn3.textContent = 'Copied';
   btn2.textContent = 'Copy';
@@ -62,7 +62,7 @@ btn3.addEventListener('click', function handleClick() {
 
 const btn4 = document.getElementById('copy4');
 
-// ✅ Change button text on click
+//  Change button text on click
 btn4.addEventListener('click', function handleClick() {
   btn4.textContent = 'Copied';
   btn3.textContent = 'Copy';
