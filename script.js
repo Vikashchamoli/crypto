@@ -33,6 +33,7 @@ let copy = (textId) => {
 
 //  Change button text on click
 btn.addEventListener('click', function handleClick() {
+  document.getElementById("cryptos").innerText="USDT( TRC20 ) or Tron address successfully copied."
   btn.textContent = 'Copied';
   btn2.textContent = 'Copy';
   btn3.textContent = 'Copy';
@@ -43,6 +44,7 @@ const btn2 = document.getElementById('copy2');
 
 //  Change button text on click
 btn2.addEventListener('click', function handleClick() {
+  document.getElementById("cryptos").innerText="Bitcoin address successfully copied."
   btn2.textContent = 'Copied';
   btn.textContent = 'Copy';
   btn3.textContent = 'Copy';
@@ -53,6 +55,7 @@ const btn3 = document.getElementById('copy3');
 
 //  Change button text on click
 btn3.addEventListener('click', function handleClick() {
+  document.getElementById("cryptos").innerText="USDT ( ERC20 ) or Etherium address successfully copied."
   btn3.textContent = 'Copied';
   btn2.textContent = 'Copy';
   btn.textContent = 'Copy';
@@ -64,6 +67,7 @@ const btn4 = document.getElementById('copy4');
 
 //  Change button text on click
 btn4.addEventListener('click', function handleClick() {
+  document.getElementById("cryptos").innerText="Litecoin address successfully copied."
   btn4.textContent = 'Copied';
   btn3.textContent = 'Copy';
   btn2.textContent = 'Copy';
@@ -120,3 +124,4 @@ window.addEventListener("click", function (event) {
       myPopup.classList.remove("show");
   }
 });
+
