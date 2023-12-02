@@ -70,3 +70,53 @@ btn4.addEventListener('click', function handleClick() {
   btn.textContent = 'Copy';
 
 });
+
+
+
+
+copy4.addEventListener("click", function () {
+  myPopup.classList.add("show");
+});
+closePopup.addEventListener("click", function () {
+  myPopup.classList.remove("show");
+});
+window.addEventListener("click", function (event) {
+  if (event.target == myPopup) {
+      myPopup.classList.remove("show");
+  }
+});
+
+copy3.addEventListener("click", function () {
+  myPopup.classList.add("show");
+});
+closePopup.addEventListener("click", function () {
+  myPopup.classList.remove("show");
+});
+window.addEventListener("click", function (event) {
+  if (event.target == myPopup) {
+      myPopup.classList.remove("show");
+  }
+});
+copy2.addEventListener("click", function () {
+  myPopup.classList.add("show");
+});
+closePopup.addEventListener("click", function () {
+  myPopup.classList.remove("show");
+});
+window.addEventListener("click", function (event) {
+  if (event.target == myPopup) {
+      myPopup.classList.remove("show");
+  }
+});
+
+copy1.addEventListener("click", function () {
+  myPopup.classList.add("show");
+});
+closePopup.addEventListener("click", function () {
+  myPopup.classList.remove("show");
+});
+window.addEventListener("click", function (event) {
+  if (event.target == myPopup) {
+      myPopup.classList.remove("show");
+  }
+});

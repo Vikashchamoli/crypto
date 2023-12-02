@@ -66,3 +66,50 @@ body .container {
 .container .inp1{margin: 4px;box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;}
 .container .logo{height: 27px;}
 .container .headings{font-size: 16px;font-weight: bolder;}
+
+
+
+
+.popup {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.23);
+  display: none;
+}
+.popup-content {
+  background-color: white;
+  margin: 10% auto;
+  padding: 20px;
+  
+  width: 30vw;
+  font-weight: bolder;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.popup-content button {
+  display: block;
+  margin: 0 auto;
+}
+.show {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#closePopup{box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;transition: 0.3s ease-in-out;font-weight: bolder;
+  color: black}
+#closePopup:hover{color: rgba(255, 0, 0, 0.869);box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;}
+
+
+@media (min-width:300px) and (max-width:700px){
+
+  .popup-content {width:92vw;text-align: center;}
+}
+@media (min-width:100px) and (max-width:289px){
+  .popup-content {width:92vw;text-align: center;}
+}
