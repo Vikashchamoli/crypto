@@ -79,13 +79,13 @@ body .container {
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.23);
-  /* display: none; */
+  display: none;
 }
 .popup-content {
   background-color: white;
   margin: 10% auto;
   padding: 20px;
-  
+  text-align: center;
   width: 30vw;
   font-weight: bolder;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
@@ -105,7 +105,7 @@ body .container {
 
 @media (min-width:300px) and (max-width:700px){
 
-  .popup-content {width:92vw;text-align: center;margin-top: 58%;}
+  .popup-content {width:92vw;text-align: center;margin-top: 54vh;}
 }
 @media (min-width:100px) and (max-width:289px){
   .popup-content {width:92vw;text-align: center;}
